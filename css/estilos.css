@@ -1,1 +1,5 @@
-estilos.css
+@font-face
+{
+   font-family: "mesmerize";
+       src: url("fuentefancy.ttf") format("truetype")
+}
