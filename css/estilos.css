@@ -1,5 +1,15 @@
 @font-face
 {
    font-family: "mesmerize";
-       src: url("fuentefancy.ttf") format("truetype")
+       src: url("fonts/mesmerize-sc-el.ttf") format("truetype")
+}
+
+.rp {
+
+	background-color:#2979FF;
+}
+
+.need {
+
+	color:white;
 }

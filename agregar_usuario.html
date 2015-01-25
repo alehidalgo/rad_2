@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Agregar Usuario - RAD</title>
+</head>
+<body>
+	<nav class="navbar navbar-default rp" role="navigation">
+		<div class="container.fluid">
+			<div class="navbar-header">
+				<a href="backend_home.html" class="navbar-brand"><span class="need">RAD</span></a>
+			</div>
+		</div>	
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+			<form class="navbar-form navbar-left" role="search" method="GET">
+        		<div class="form-group">
+         			<input type="text" class="form-control" placeholder="Introduzca su búsqueda">
+        			<button type="submit" class="btn btn-default">Buscar</button>
+        		</div>
+      		</form>
+      		</ul>
+			<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user need"></span><span class="caret need"></span></a>
+          		<ul class="dropdown-menu" role="menu">
+            	<li><a href="#">Action</a></li>
+           		<li><a href="#">Another action</a></li>
+            	<li><a href="#">Something else here</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div>
+	</nav>
+		<div class="container-fluid">
+			<h2>Agregar Usuario</h2>
+			<form action="" role="form">
+				<legend>Agrega un nuevo usuario al registro</legend>
+				<div class="form-group col-xs-6">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="Nombre" placeholder="Nombre" class="form-control">
+					<label for="apellido">Apellido</label>
+					<input type="text" name="Apellido" placeholder="Apellido" class="form-control">
+					<label for="departamento">Departamento</label>
+					<input type="text" name="Departamento" placeholder="Departamento" class="form-control">
+					<br>
+					<button type="submit" class="btn btn-default">Agregar</button>
+				</div>
+			</form>
+		</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
